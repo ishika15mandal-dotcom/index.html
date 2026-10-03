@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Studio</title>
+    <meta
+      name="description"
+      content="Nova Studio creates bold digital experiences for modern brands and ambitious startups."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="brand" aria-label="Nova Studio home">
+          <span class="brand-mark">N</span>
+          <span>Nova Studio</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+          <span class="toggle-icon">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative digital partner</p>
+            <h1>We design experiences that move people.</h1>
+            <p class="lead">
+              Nova Studio blends strategy, design, and code to help brands stand out in a crowded digital world.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#contact">Book a call</a>
+              <a class="button secondary" href="#work">See our work</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Key results">
+              <li><strong>120+</strong><span>Projects launched</span></li>
+              <li><strong>4.9/5</strong><span>Average rating</span></li>
+              <li><strong>12 wk</strong><span>Average delivery</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Design preview panel">
+            <div class="dashboard-card glass">
+              <div class="card-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="chart-area">
+                <div class="bars" aria-hidden="true">
+                  <span style="height: 30%"></span>
+                  <span style="height: 50%"></span>
+                  <span style="height: 42%"></span>
+                  <span style="height: 68%"></span>
+                  <span style="height: 82%"></span>
+                  <span style="height: 90%"></span>
+                </div>
+              </div>
+              <div class="metric-row">
+                <div>
+                  <small>Engagement</small>
+                  <strong>+48%</strong>
+                </div>
+                <div>
+                  <small>Revenue</small>
+                  <strong>$240k</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo-strip" aria-label="Client list">
+        <div class="container brands">
+          <span>Northstar</span>
+          <span>Pixel Forge</span>
+          <span>Summit Labs</span>
+          <span>Brightline</span>
+          <span>Horizon</span>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2>Strategy, design, and development built for momentum.</h2>
+          </div>
+
+          <div class="card-grid three-up">
+            <article class="info-card">
+              <div class="icon">✦</div>
+              <h3>Brand systems</h3>
+              <p>Positioning, messaging, and identity systems that make your brand feel premium and unmistakable.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">▣</div>
+              <h3>Product design</h3>
+              <p>Clean interfaces and user journeys crafted to turn interest into confident action.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">⌁</div>
+              <h3>Web experiences</h3>
+              <p>Fast, responsive sites that load beautifully and convert clearly across every device.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading split">
+            <div>
+              <p class="eyebrow">Selected work</p>
+              <h2>Results that feel as good as they look.</h2>
+            </div>
+            <div class="filters" aria-label="Project filters">
+              <button class="filter-btn active" type="button" data-filter="all">All</button>
+              <button class="filter-btn" type="button" data-filter="branding">Branding</button>
+              <button class="filter-btn" type="button" data-filter="ux">UX</button>
+              <button class="filter-btn" type="button" data-filter="web">Web</button>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card" data-category="branding">
+              <div class="project-image image-one"></div>
+              <div class="project-copy">
+                <span>Branding</span>
+                <h3>Northstar Rebrand</h3>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="ux">
+              <div class="project-image image-two"></div>
+              <div class="project-copy">
+                <span>UX</span>
+                <h3>Summit App Flow</h3>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="web">
+              <div class="project-image image-three"></div>
+              <div class="project-copy">
+                <span>Web</span>
+                <h3>Pixel Forge Launch</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="about-copy">
+            <p class="eyebrow">Our approach</p>
+            <h2>We turn complex ideas into clear experiences.</h2>
+            <p>
+              Every project starts with listening closely, then shaping a clear narrative, elegant visuals, and a website experience that feels effortless for your audience.
+            </p>
+            <p>
+              We focus on the details that matter most: clarity, conversion, and consistency across every touchpoint.
+            </p>
+          </div>
+
+          <div class="testimonial glass">
+            <p class="quote">
+              “Nova Studio helped us sharpen our story and gave our launch a digital presence that customers immediately trusted.”
+            </p>
+            <div class="person">
+              <strong>Amelia Ross</strong>
+              <span>Marketing Director, Northstar</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">N</span>
+            <span>Nova Studio</span>
+          </a>
+          <p>Building memorable digital experiences for ambitious brands.</p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <button type="submit" class="button primary">Let’s talk</button>
+          <p class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="container bottom-bar">
+        <span>© <span id="year"></span> Nova Studio</span>
+        <span>hello@novastudio.co</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
